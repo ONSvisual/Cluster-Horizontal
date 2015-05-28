@@ -256,11 +256,11 @@
 		
 		//specify number of ticks on x axis
 		if(graphic.width()<threshold_sm){
-			xAxis.tickValues(x(dvc.optional.x_num_ticks_sm_md_lg[0]) );
+		  xAxis.ticks(dvc.optional.x_num_ticks_sm_md_lg[0])
 		} else if (graphic.width() <= threshold_md){
-			xAxis.tickValues(x(dvc.optional.x_num_ticks_sm_md_lg[1]));
+		  xAxis.ticks(dvc.optional.x_num_ticks_sm_md_lg[1])
 		} else {
-			xAxis.tickValues(x(dvc.optional.x_num_ticks_sm_md_lg[2]));		
+		  xAxis.ticks(dvc.optional.x_num_ticks_sm_md_lg[2])		
 		}		
 
 
@@ -283,11 +283,11 @@
 				  
 		//specify number or ticks on y axis
 		if (graphic.width() <= threshold_sm) {
-		  yAxis.ticks(dvc.optional.y_num_ticks_sm_md_lg[0])
+			yAxis.tickValues(y0(dvc.optional.y_num_ticks_sm_md_lg[0]) );
 		} else if (graphic.width() <= threshold_md){
-		  yAxis.ticks(dvc.optional.y_num_ticks_sm_md_lg[1])
+			yAxis.tickValues(y0(dvc.optional.y_num_ticks_sm_md_lg[1]));
 		} else {
-		  yAxis.ticks(dvc.optional.y_num_ticks_sm_md_lg[2])
+			yAxis.tickValues(y0(dvc.optional.y_num_ticks_sm_md_lg[2]));
 		}				
 		
 		
