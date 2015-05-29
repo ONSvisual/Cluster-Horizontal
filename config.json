@@ -9,9 +9,7 @@
         
             "legendLabels" :[ "Education for under-fives" , "Primary education" , "Secondary education" , "Tertiary education" ],
 			
-			"legendColourArray" : [ "#274796" , "#F5942F", "#E73F40", "#7BCAE2" ],
-        
-            "sourceText":["Source information"],
+			"sourceText":["Source information"],
             "sourceURL":["http://www.ons.gov.uk/ons"],
         
             "annotationChart": [
@@ -34,7 +32,7 @@
             ],
         
             "yAxisLabel":"%",
-            "yAxisScale":[0,50],   
+            "yAxisScale":[0,50],  
             "yAxisBreak": false,
             "yAxisBreak_sm_md_lg": [65,65,65]            
     },
